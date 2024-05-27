@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.home {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.circle:hover {
+ transform: scale(1.1);
+}
+.circle i {
+   font-size: 40px;
+}
+.introduction{
+    color: white;
+}
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+.line-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.line-2 h1{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+
+}
+.line-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 75px;
+}
+.introduction{
+    background-color: rgba(0,0,0,0.7);
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 16px;
+}
+.line-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.line-5{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+
+.info-box {
+    background-color: rgba(0,0,0,0.6);
+    overflow-y: auto;
+    width: 600px;
+    /*height: 700px;*/
+    margin-left: 250px;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+    font-family: Arimo, serif;
+    text-align: center;
+}
+.info-box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    font-size: 40px;
+}
+.info-box p{
+
+    font-size: 18px;
+}
+.wrapper {
+    display: flex;
+}
+.img-history{
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.img-political{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.img-netherlands{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.img-horst{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.img-richard{
+    margin-top: 125px;
+    margin-left: 200px;
+}
+.img-ypa{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.img-trade{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.img-remain{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.img-europian{
+    margin-top: 250px;
+    margin-left: 200px;
+}
